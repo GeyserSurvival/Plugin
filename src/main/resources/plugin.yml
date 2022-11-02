@@ -1,0 +1,5 @@
+name: Plugin
+version: '${project.version}'
+main: io.github.geysersurvival.plugin.Plugin
+api-version: 1.19
+description: rory
