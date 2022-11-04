@@ -3,3 +3,13 @@ version: '${project.version}'
 main: io.github.geysersurvival.plugin.Plugin
 api-version: 1.19
 description: rory
+
+permissions:
+  plugin.giverory:
+    default: op
+    description: "Allow the usage of the 'give-rory' command"
+
+commands:
+  give-rory:
+    permission: plugin.giverory
+    description: "Give the specified player a rory map!"
