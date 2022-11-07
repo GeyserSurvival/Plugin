@@ -5,10 +5,6 @@ import io.github.geysersurvival.plugin.commands.ToStickCommand;
 import io.github.geysersurvival.plugin.commands.WearCommand;
 import io.github.geysersurvival.plugin.listeners.ChatListener;
 import io.github.geysersurvival.plugin.listeners.RoryMapFirstJoin;
-import io.github.geysersurvival.plugin.tabcompleter.ToStickTabCompleter;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandSender;
-import org.bukkit.command.TabCompleter;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
