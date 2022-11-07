@@ -8,14 +8,21 @@ permissions:
   plugin.giverory:
     default: op
     description: "Allow the usage of the 'give-rory' command"
+  plugin.tostick:
+    default: true
+    description: "Allow the usage of the 'tostick' command"
   plugin.wear:
     default: true
     description: "Allow the usage of the 'wear' command"
+
 
 commands:
   give-rory:
     permission: plugin.giverory
     description: "Give the specified player a rory map!"
+  tostick:
+    permission: plugin.tostick
+    description: "Convert eligible blocks into sticks"
   wear:
     permission: plugin.wear
-    description: "Wear anythig on your head!"
+    description: "Wear anything on your head!"
