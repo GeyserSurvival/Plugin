@@ -24,7 +24,7 @@ public final class Plugin extends JavaPlugin {
         this.getCommand("wear").setExecutor(new WearCommand());
 
         //Register tab completer
-        this.getCommand("tostick").setTabCompleter((commandSender, command, s, strings) -> {
+        this.getCommand("tostick").setTabCompleter((sender, command, s, args) -> {
             List<String> names = new ArrayList<>();
             names.add("bamboo");
             names.add("planks");
