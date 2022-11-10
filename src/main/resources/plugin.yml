@@ -8,6 +8,15 @@ permissions:
   plugin.giverory:
     default: op
     description: "Allow the usage of the 'give-rory' command"
+  plugin.me:
+    default: true
+    description: "Allow the usage of the 'me' command"
+  plugin.message:
+    default: true
+    description: "Allow private messaging other players"
+  plugin.reply:
+    default: true
+    description: "Allow replying back to players"
   plugin.tostick:
     default: true
     description: "Allow the usage of the 'tostick' command"
@@ -20,6 +29,17 @@ commands:
   give-rory:
     permission: plugin.giverory
     description: "Give the specified player a rory map!"
+  me:
+    permission: plugin.me
+    description: "Send a message as yourself to everyone online"
+  message:
+    permission: plugin.message
+    aliases: ["msg", "tell", "w", "whisper"]
+    description: "Send a private message to a player"
+  reply:
+    permission: plugin.reply
+    aliases: ["r"]
+    description: "Reply to the previous person you've private messaged"
   tostick:
     permission: plugin.tostick
     description: "Convert eligible blocks into sticks"
